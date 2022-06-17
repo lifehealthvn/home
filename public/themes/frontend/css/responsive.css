@@ -1,0 +1,109 @@
+@media(max-width: 480px){
+	.hidden_mobile{
+		display: none;
+	}
+
+	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	    background-color: #fff;
+	}
+	.navbar-inverse .navbar-toggle{
+	    border-color: #fff;
+	        margin-top: 30px;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar{
+	    background-color: #01458e;
+	}
+	.f-nav .navbar-inverse .navbar-toggle{
+		margin-top: 12px;
+	}
+	.container > .navbar-collapse{
+	    width: 100%;
+	    background: #01458e;
+	    float: right;
+	    margin-top: 0px;
+	    position: absolute;
+	    z-index: 9999;
+	    padding-left: 0px;
+	}
+	.navbar-inverse .navbar-nav > li > a,.f-nav .navbar-inverse .navbar-nav > li > a{
+		color:#fff;
+		line-height: 40px;
+	}
+
+	.navbar-inverse .navbar-nav > li ul{
+		visibility: initial;
+		position: relative;
+		opacity: 1;
+		margin-top: 0px;
+	}
+	.navbar-inverse .navbar-nav > li:hover ul{
+		margin-top: 0px;
+	}
+	.navbar-nav{
+       float: left;
+	    width: 100%;
+	    margin: 0;
+	    height: 100%;
+	    overflow-y: scroll;
+	}
+	#about_us h3 span{
+		border-bottom: none;
+	}
+	.slide_ .desciption{
+		display: none;
+
+	}
+	.about{
+	    background-size: auto 100%;
+        padding-top: 30px;
+	    padding-bottom: 30px;
+	    margin-bottom: 30px;
+	}
+	.item_thuoctinh{
+		margin-bottom: 15px;
+
+	}
+	.bg_hotline{
+		background-image: initial;
+		width: 100%;
+		padding-left: 0px;
+		font-size: 20px;
+	}
+	.news{
+		margin-bottom: 30px;
+	}
+	.footer{
+	    padding-top: 20px;
+    	padding-bottom: 20px;
+	}
+	.top .top_info span{
+		font-size: 11px;
+	}
+	.top_right{
+		display: none;
+	}
+	#content,.contact{
+	    padding-top: 30px;
+    	padding-bottom: 30px;
+	}
+	.box_image_detail{
+		min-height: initial;
+		margin-bottom: 30px;
+	}
+	.list_post .item_post .box_image{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.list_post .item_post .description{
+		width: 100%;
+		padding-left: 0px;
+	}
+	.box_share .social-icons{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.box_share .author{
+		width: 100%;
+		text-align: left;
+	}
+}
